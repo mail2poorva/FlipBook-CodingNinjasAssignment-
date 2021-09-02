@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Flip</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="cover">
+      <div class="book">
+        <label for="page-1" class="book__page book__page--1"> </label>
+
+        <label for="page-2" class="book__page book__page--4">
+          <div class="page__content">
+            <div class="page__content-blockquote">
+              <p class="page__content-blockquote-text">
+                This is my book flip assignment given by codingninjas plaform in
+                frontend course.
+              </p>
+
+              <span class="page__content-blockquote-reference"
+                >Poorva Gupta</span
+              >
+            </div>
+
+            <div class="page__number">3</div>
+          </div>
+        </label>
+
+        <!-- Resets the page -->
+        <input type="radio" name="page" id="page-1" />
+
+        <!-- Goes to the second page -->
+        <input type="radio" name="page" id="page-2" />
+        <label class="book__page book__page--2">
+          <div class="book__page-front">
+            <div class="page__content">
+              <img
+                src="https://edit.org/images/cat/book-covers-big-2019101610.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="book__page-back">
+            <div class="page__content">
+              <h1 class="page__content-title">MySelf</h1>
+
+              <h6>Please visit my github profile and see my work</h6>
+              <a
+                href="https://github.com/mail2poorva?tab=repositories"
+                class="github"
+                >Github</a
+              >
+              <div class="page__number">2</div>
+            </div>
+          </div>
+        </label>
+      </div>
+    </div>
+  </body>
+</html>
